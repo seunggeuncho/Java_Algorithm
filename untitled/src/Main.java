@@ -64,6 +64,5 @@ public class Main {
         String tt = "123456";
 
         System.out.println("tt.substring(1,4) = " + tt.substring(1,4));
-        Arrays.sort();
     }
 }
