@@ -64,5 +64,16 @@ public class Main {
         String tt = "123456";
 
         System.out.println("tt.substring(1,4) = " + tt.substring(1,4));
+        
+        //////////////////
+        Set<Integer> st = new HashSet<>();
+        st.add(1);
+        st.add(1);
+        st.add(3);
+        st.add(4);
+        
+        for(int i: st){
+            System.out.println("i = " + i);
+        }
     }
 }
